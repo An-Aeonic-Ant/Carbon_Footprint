@@ -1,0 +1,210 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Welcome
+{% endblock %}
+
+{% block main %}
+
+
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+    <img src = "https://www.onlythebible.com/media/2016/08/12/x960/Footprints-in-the-Sand-Poem.jpg" alt = "Image 1">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Calculate your personal carbon footprint!</h1><p></p>
+            <p><a class="btn btn-lg btn-secondary" href="/calculate" role="button">Calculate!</a></p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+    <img src = "https://th.bing.com/th/id/OIP.l9hBxWF0DDM62Y9snfj_oQHaEA?rs=1&pid=ImgDetMain.jpg" alt = "Image 1">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Create an account to keep track of your progress!</h1>
+            <p><a class="btn btn-lg btn-secondary" href="/register" role="button">Register</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+    <img src = "https://i2.wp.com/hwbrycewrites.com/wp-content/uploads/2017/01/Footprints-in-the-snow-Capture.jpg?resize=578%2C230" alt = "Image 1">
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1 class = "carousel-3" > Your impact makes a big difference! <h1>
+        <p><a class="btn btn-lg btn-secondary" href="https://en.wikipedia.org/wiki/Carbon_footprint" role="button">Learn more!</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <style>
+          h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 40px;
+          }
+      </style>
+        <h2 class="featurette-heading">What is Carbon FootPrint?</h2>
+        <p>
+          A carbon footprint is defined as the total amount of greenhouse gases emitted into the
+          atmosphere, such as carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O),
+          hydrofluorocarbons (HFCs), expressed in equivalent tons of CO2. It may be associated with
+          the activities of an individual, a community, or even a product.
+        </p>
+      </div>
+      <div class="col-md-5">
+    <!-- from google images -->
+    <img src = "https://sancell.com.au/wp-content/uploads/2020/02/carbon-footprint-infographic2-2048x1196.jpg" alt = "Image 1">
+      </div>
+    </div>
+
+    <h1> Causes of Carbon FootPrint </h1>
+    <style>
+      h1 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 70px;
+      }
+  </style>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      
+
+    <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">FOSSIL FUELS<span></span></h2>
+        <p class="lead">
+          </p><ul>
+            <li>The combustion of fossil fuels is a primary contributor to carbon
+emissions and other greenhouse gases.</li>
+            <li>The combustion of fossil fuels is a primary contributor to carbon
+emissions and other greenhouse gases.</li>
+            <li> From
+the manufacturing of goods to their transportation using freight trains,
+many aspects of our daily activities involve the consumption of fossil
+fuels, further intensifying carbon footprints.</li>
+          </ul>
+        <p></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+    <!-- from google images -->
+    <img src = "https://natureworldtoday.com/wp-content/uploads/2020/12/Advantages-and-Disadvantages-of-Fossil-Fuels.jpg" alt = "Image 1">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">MODERN LIFESTYLE </h2>
+        <p class="lead">
+          <ul>
+            <!-- information from PETA.org -->
+            <li>In our contemporary society, the pursuit of an image often revolves
+              around owning the latest electronic equipment.</li>
+            <li>The production and
+              use of these gadgets, from mobile processors to power-driven home
+              appliances, contribute substantially to the carbon dioxide in the
+              atmosphere.</li>
+            <li>Additionally, the prevalence of cars, with a theoretical
+              count exceeding seven billion if each person had one, significantly
+              amplifies carbon emissions.</li>
+
+
+          </ul>
+
+        </p>
+      </div>
+      <div class="col-md-5">
+      <!-- from google images -->
+    <img src = "https://luxport.s3.amazonaws.com/108968/599224_14-EXT.jpg" alt = "Image 1">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">FOOD</h2>
+        <p class="lead">
+          <ul>
+            <!-- information from PETA.org -->
+            <li>The carbon footprint associated with
+              food consumption is noteworthy,
+              particularly when relying on processed or
+              non-locally produced items.</li>
+            <li>The
+production and transportation of food
+contribute to greenhouse gas emissions,
+adding to the overall environmental
+impact of our dietary choices.</li>
+            
+
+          </ul>
+
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+      <!-- from google images -->
+    <img src = "https://carboncredits.b-cdn.net/wp-content/uploads/2022/07/Carbon-Footprint-food-696x365.jpg" alt = "Image 1">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">AIR TRAVEL </h2>
+        <p class="lead">
+          <ul>
+            <!-- information from PETA.org -->
+            <li>Despite the affordability and convenience of air
+              travel, it comes at an environmental cost. The
+              carbon dioxide emissions from aircraft,
+              approximately 90 kg per hour, contribute
+              significantly to the overall carbon footprint.</li>
+            <li>The proliferation of airports in various cities further
+              compounds the environmental impact of air travel.</li>
+
+          </ul>
+
+        </p>
+      </div>
+      <div class="col-md-5">
+      <!-- from google images -->
+    <img src = "https://8billiontrees.com/wp-content/uploads/2021/03/Footprints-From-Air-Travels-Emissions-Can-Be-Eliminated-Through-Carbon-Offsets--700x368.jpg" alt = "Image 1">
+    <hr class="featurette-divider">
+   </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <div class = "random">
+      <img src = "\static\effects1.jpg" alt = "Image 1">
+    </div>
+  </div><!-- /.container -->
+
+
+{% endblock %}
